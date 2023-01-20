@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MrJabes762/Projeto_Netflix_Responsivo/issues"
   },
-  "homepage": "https://github.com/MrJabes762/Projeto_Netflix_Responsivo#readme"
+  "homepage": "https://github.com/MrJabes762/Projeto_Netflix_Responsivo#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
