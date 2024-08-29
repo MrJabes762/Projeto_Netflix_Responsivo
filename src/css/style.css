@@ -53,5 +53,14 @@ body{
     width: 100%;
     padding: 20px 2.5vw;
     color: #fff;
-    
+}
+.cabeçalho{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 50px;
+}
+.info{
+    width: 50%;
+    font-size: 20px;
+    margin-top: 10px;
 }
