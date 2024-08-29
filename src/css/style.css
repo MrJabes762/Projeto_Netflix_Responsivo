@@ -45,6 +45,13 @@ body{
 .join-btn{
     background-color: #E50913;
     border-color: #dd0e15;
-    
     cursor: pointer;
+}
+.principal{
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    padding: 20px 2.5vw;
+    color: #fff;
+    
 }
