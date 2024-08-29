@@ -64,3 +64,13 @@ body{
     font-size: 20px;
     margin-top: 10px;
 }
+.lista-filmes{
+    width: 100%;
+    height: 250px;
+    margin-top: 40px;
+    position: relative;
+}
+.filmes-categoria{
+    font-size: 20px;
+    font-weight: 500;
+}
