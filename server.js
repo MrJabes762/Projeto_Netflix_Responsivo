@@ -1,16 +1,16 @@
-const expresss = require("express");// criar o servidor local
-const path = require ("path");// referenciar os caminhos dos arquivos 
-const port = 3333;// porta do servidor
+const express = require("express"); // Corrigido para "express"
+const path = require("path");
+const port = 3333;
 
-let caminhoInicial = path.join(__dirname, "src"); // juntar o arquivo atual com a pasta src
+let caminhoInicial = path.join(__dirname, "src");
 
-let app = expresss();// instancia de apicação do servidor 
-app.use(expresss.static(caminhoInicial));// criação de um servidor estatico para rodar o caminho 
+let app = express(); // Instância do servidor
+app.use(express.static(caminhoInicial)); // Servidor estático
 
-app.get("/", (req,res) => {// atravez do caminho ele fará um request e um response 
-    res.sendFile(path.join(caminhoInicial,"index.html")) // enviar para o servidor o arquivo com caminho inicial e o index
+app.get("/", (req, res) => {
+    res.sendFile(path.join(caminhoInicial, "index.html")); // Serve o arquivo index.html
 });
 
-app.listen (port, () =>{// definição da porta eb teste de funcionalidade do server
-    console.log (`Server start up ! on port ${port}`);
+app.listen(port, () => {
+    console.log(`Server startup! On port ${port}`);
 });
