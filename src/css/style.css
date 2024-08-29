@@ -16,3 +16,35 @@ body{
     display: block;
     align-items: center;
 }
+.join-box{
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: auto;
+}
+.join-msg{
+    color: #fff;
+    text-transform: uppercase;
+}
+.logo{
+    height: 60px;
+}
+.btn{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background: none;
+    color: #fff;
+    height: 35px;
+    padding: 0 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.join-btn{
+    background-color: #E50913;
+    border-color: #dd0e15;
+    
+    cursor: pointer;
+}
